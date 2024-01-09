@@ -1,0 +1,13 @@
+syntax = "proto3";
+package ibcfinal.send;
+
+option go_package = "ibcFinal/x/send/types";
+
+message SendPacketData {
+    oneof packet {
+        NoData noData = 1;
+    }
+}
+
+message NoData {
+}

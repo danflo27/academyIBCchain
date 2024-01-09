@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package ibcfinal.send;
+
+import "gogoproto/gogo.proto";
+import "ibcfinal/send/params.proto";
+
+option go_package = "ibcFinal/x/send/types";
+
+// GenesisState defines the send module's genesis state.
+message GenesisState {
+  Params params  = 1 [(gogoproto.nullable) = false];
+  string port_id = 2;
+}
+
