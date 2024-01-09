@@ -8,6 +8,7 @@ accounts:
   coins:
   - 10000token
   - 100000000stake
+  - 100000000token16vl37gtf87r33gus7qwdwg9sprne4vk8qfshfg
 client:
   openapi:
     path: docs/static/openapi.yml
