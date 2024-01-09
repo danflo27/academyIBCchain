@@ -4,6 +4,7 @@ accounts:
   coins:
   - 20000token
   - 200000000stake
+  - 200000000token16vl37gtf87r33gus7qwdwg9sprne4vk8qfshfg
 - name: bob
   coins:
   - 10000token
